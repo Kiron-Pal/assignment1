@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+
+/* common class */
+
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -147,6 +150,9 @@ header #banner .banner-container {
   color: black;
   transform: translateY(-6px) scale(1.07);
 }
+
+/* note section  */
+
 #note .note-container {
   padding-top: 50px;
 }
@@ -186,6 +192,9 @@ header #banner .banner-container {
   object-fit: cover;
   padding: 10px;
 }
+
+/* solution section */
+
 #solution{
     margin-top: 120px;
 }
@@ -220,6 +229,9 @@ header #banner .banner-container {
     margin-bottom: 16px;
 
 }
+
+/* challange section */
+
 #challange{
     padding-top:120px ;
 }
@@ -267,6 +279,9 @@ header #banner .banner-container {
   color: white;
   transform: translateY(-6px) scale(1.07);
 }
+
+/* footer section */
+
 footer{
     background-color: #001931;
 }
