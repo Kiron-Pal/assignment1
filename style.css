@@ -38,6 +38,8 @@ nav {
   border: none;
   border-radius: 4px;
   transition: all 0.4s ease;
+  cursor: pointer;
+  
 }
 .btn:hover {
   background: white;
@@ -117,6 +119,7 @@ header #banner .banner-container {
   align-items: center;
   gap: 10px;
   transition: all 0.4s ease;
+  cursor: pointer;
 }
 .btn2:hover {
   background: white;
@@ -136,6 +139,7 @@ header #banner .banner-container {
   align-items: center;
   gap: 10px;
   transition: all 0.4s ease;
+  cursor: pointer;
 }
 .btn3:hover {
   background: white;
@@ -237,4 +241,63 @@ header #banner .banner-container {
     line-height: 24px;
     text-align: center;
     color: #627382;
+    justify-content: center;
 }
+.button{
+    justify-content: center;
+    display: flex;
+}
+.btn4 {
+  background-color: #30b868;
+  padding: 12px 16px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.4s ease;
+  display: flex;
+  cursor: pointer;
+
+  
+}
+.btn4:hover {
+  background: black;
+  border: none;
+  color: white;
+  transform: translateY(-6px) scale(1.07);
+}
+footer{
+    background-color: #001931;
+}
+
+footer .footer-container{
+    padding-top: 120px;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+ .social-link p{
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+ }
+ .social-link a{
+    text-decoration: none;
+    color: #f7f6f2;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+ }
+ .copy{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid #172d43;
+ }
