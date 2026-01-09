@@ -53,7 +53,7 @@ nav {
 
 /*banner section*/
 header #banner {
-  background: url("../assets/hero-bg.png");
+  background-image: url("./assets/hero-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -284,6 +284,7 @@ header #banner .banner-container {
 
 footer{
     background-color: #001931;
+    margin-top: 120px;
 }
 
 footer .footer-container{
